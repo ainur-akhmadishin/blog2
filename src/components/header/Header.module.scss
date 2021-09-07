@@ -1,0 +1,58 @@
+.Header {
+	max-width: 1440px;
+	height: 80px;
+	background: #FFFFFF;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding-left: 22px;
+	padding-right: 22px;
+
+	&--logo {
+
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 28px;
+		color: black;
+
+	}
+
+	&--link {
+		width: 84px;
+		height: 35px;
+		padding-left: 10px;
+
+	}
+
+	&--create-article {
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 22px;
+		align-items: center;
+		color: #52C41A;
+		border: 1px solid #52C41A;
+		box-sizing: border-box;
+		border-radius: 5px;
+		padding: 6px 10px;
+		
+		&:hover, :focus{
+		color: #52C41A;	
+		}
+
+	}
+	
+	&--user-logo{
+		width: 46px;
+		height: 46px;
+	}
+
+}
